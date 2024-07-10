@@ -20,7 +20,7 @@ function HeroMain() {
 
                     <p className='pb-6 md:pb-10'>Software engineering student and NextJs developer, passionate about transforming innovative ideas into powerful web solutions</p>
                     <div className='flex flex-row sm:justify-start justify-center align-middle  sm:space-y-0 space-x-6'>
-                        <a href="/cv.pdf" download>
+                        <a href="/omer_NextJs.pdf" download>
                             <button className="button-86 " role="button">
                                 Download CV
                             </button>
