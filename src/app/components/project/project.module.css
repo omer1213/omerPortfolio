@@ -1,0 +1,21 @@
+.projectHeight{
+    height: auto
+}
+
+.heightImage{
+    height: 33rem;
+}
+.border{
+    border: 1px solid white;
+}
+@media screen and (max-width: 768px) {
+ 
+  .projectHeight{
+    height: auto;
+  }
+  .marginImage{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+   
+  }
+}
