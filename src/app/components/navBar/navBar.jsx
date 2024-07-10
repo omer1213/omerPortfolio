@@ -71,10 +71,8 @@
 
 // export default NavBar
 
-
-
-"use client";
-import React, { useState, useEffect } from 'react';
+"use clientn"
+import React, { useState, useEffect, useMemo } from 'react';
 import Link from 'next/link';
 import NavLinks from './navLinks';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -89,12 +87,12 @@ const dancingFont = Dancing_Script({
 });
 
 function NavBar() {
-    const navlinks = [
+    const navlinks = useMemo(() => [
         { title: "Home", href: "#home" },
         { title: "About", href: "#about" },
         { title: "Projects", href: "#project" },
         { title: "Contact", href: "#contact" }
-    ];
+    ], []);
 
     const [openNavBar, setOpenNavBar] = useState(false);
     const [activeLink, setActiveLink] = useState("#home");

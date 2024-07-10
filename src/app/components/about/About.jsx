@@ -1,4 +1,3 @@
-"use client";
 import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
@@ -24,7 +23,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Bachelor's of Software Engineering (Continue to be ended in 2025)</li>
+        <li>Bachelor&apos;s of Software Engineering (Continue to be ended in 2025)</li>
       </ul>
     ),
   },
@@ -51,9 +50,7 @@ const AboutSection = () => {
   };
 
   return (
-
-    <section className="text-white pt-12 mt-10" id="about" >
-
+    <section className="text-white pt-12 mt-10" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image src="/about.jpg" width={600} height={600} alt="about pic" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
@@ -90,9 +87,7 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
-
     </section>
-
   );
 };
 
